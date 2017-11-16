@@ -33,6 +33,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        assertEquals( 2d, App.addition(3, -1));
     }
 }
